@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>b4123b99-dd7b-4f5a-8d70-d8e73a3f543d</ProjectGuid>
+    <ProjectGuid>c67d27b0-bde4-4e01-8e2e-4993feb32721</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>pyml0103.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>pyml</Name>
-    <RootNamespace>pyml</RootNamespace>
-    <InterpreterId>Global|VisualStudio|pyml</InterpreterId>
+    <Name>pyml0103</Name>
+    <RootNamespace>pyml0103</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,13 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="pyml.py" />
-    <Compile Include="pyml0103.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|VisualStudio|pyml" />
+    <Compile Include="pyml0103.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
