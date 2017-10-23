@@ -61,7 +61,7 @@ def analyze_html(url, root_url):
         if link_url.find(root_url) != 0:
             if not re.search(r".css$", link_url): continue
         # html 이라면
-        if re.search(r".(html|htm)$", link_url):
+        if re.search(r".(php|html)$", link_url):
             # 재귀적으로 html 파일 분석하기
             analyze_html(link_url, root_url)
             continue
@@ -70,7 +70,5 @@ def analyze_html(url, root_url):
 
 if __name__ = "__main__":
     # url에 있는 모든것 다운받기
-    url = "https://docs.python.org/3.5/library/"
+    url = "https://www.kukudas.com/bbs/"
     analyze_html(url, url)
-
-# url = "https://www.kukudas.com/bbs/board.php?bo_table=JAV1A"

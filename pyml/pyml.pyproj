@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b4123b99-dd7b-4f5a-8d70-d8e73a3f543d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pyml0103.py</StartupFile>
+    <StartupFile>test_crawl.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
   <ItemGroup>
     <Compile Include="pyml.py" />
     <Compile Include="pyml0103.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_crawl.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
